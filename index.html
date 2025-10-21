@@ -1,108 +1,203 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>verifiable.im | Make it Verifiable</title>
-    
-    <!-- SEO Meta Tags -->
-    <meta name="description" content="verifiable.im is the landmark domain for the entire ecosystem of provable, attestable, and verifiable data and credentials.">
-    <meta name="keywords" content="verifiable, verifiable credentials, proof, identity, attestation, security, unearth.im">
-    <meta name="author" content="unearth.im">
-
-    <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="verifiable.im | Make it Verifiable">
-    <meta property="og:description" content="A claim is a whisper. A verifiable claim is a fact. The new standard of trust is not 'believe me,' but 'verify me.'">
-    <meta property="og:image" content="https://placehold.co/1200x630/F8F7F4/A95C3D?text=verifiable.im">
-    <meta property="og:url" content="https://verifiable.im">
-    <meta property="og:type" content="website">
-
-    <!-- Twitter Card Meta Tags -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="verifiable.im | Make it Verifiable">
-    <meta name="twitter:description" content="A claim is a whisper. A verifiable claim is a fact. The new standard of trust is not 'believe me,' but 'verify me.'">
-    <meta name="twitter:image" content="https://placehold.co/1200x630/F8F7F4/A95C3D?text=verifiable.im">
-
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com/">
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
-    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Inter:wght@400..700&display=swap" rel="stylesheet">
-    
-    <style>
-        /* Based on the unearth.im "Earth & Ink" Brand Guide */
-        body {
-            background-color: #F8F7F4; /* Off-White */
-            color: #2E2E2E; /* Charcoal */
-            font-family: 'Lora', serif; /* Narrative Font */
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
-        }
-
-        .narrative-font { font-family: 'Lora', serif; }
-        .ui-font { font-family: 'Inter', sans-serif; }
-
-        .btn {
-            padding: 0.75rem 1.5rem;
-            border-radius: 0.5rem;
-            font-weight: 600;
-            transition: all 0.2s ease-in-out;
-            border: 2px solid transparent;
-            display: inline-block;
-        }
-
-        .btn-primary {
-            background-color: #A95C3D; 
-            color: #F8F7F4;
-            border-color: #A95C3D;
-        }
-
-        .btn-primary:hover {
-            background-color: #934F35;
-            border-color: #934F35;
-        }
-
-        .fade-in {
-            animation: fadeIn 1.5s ease-in-out;
-        }
-
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(10px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-    </style>
-</head>
-
-<body class="p-6 md:p-12 flex items-center justify-center min-h-screen">
-    <main class="max-w-3xl mx-auto text-center fade-in">
-        <header class="mb-12">
-            <h1 class="text-5xl md:text-7xl font-medium tracking-tight narrative-font">verifiable<span style="color: #A95C3D;">.im</span></h1>
-        </header>
-
-        <article class="space-y-6 text-lg md:text-xl leading-relaxed text-gray-700 narrative-font">
-            <p>A claim is a whisper. A verifiable claim is a fact.</p>
-            <p>The entire modern trust economy is built on this distinction. The new standard is not "believe me," but "verify me." It is the shift from trusting institutions to trusting mathematics, from paper promises to cryptographic proof.</p>
-            <p>Verifiable is the landmark for this paradigm shift. It is for the protocol, the standard, or the foundation that defines the very concept of verifiable data for the next generation of the web.</p>
-        </article>
-        
-        <section class="mt-16">
-             <p class="font-semibold text-2xl md:text-3xl text-gray-800 narrative-font">For the new standard of trust.</p>
-        </section>
-
-        <section class="mt-12">
-            <a href="mailto:hello@unearth.im?subject=Inquiry%20for%20verifiable.im" class="btn btn-primary ui-font">
-                Make it Verifiable
-            </a>
-        </section>
-
-        <footer class="mt-16 pt-8 border-t border-gray-200">
-            <p class="ui-font text-sm text-gray-500">
-                An artifact unearthed by <a href="https://unearth.im/" target="_blank" rel="noopener noreferrer" class="font-semibold hover:text-[#A95C3D] transition-colors"><span class="text-[#2E2E2E]">unearth</span><span class="text-[#A95C3D]">.im</span></a>
-            </p>
-        </footer>
-    </main>
-</body>
-
-</html>
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verifiable Credentials: The Future of Trust</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <style>
+        /* Custom styles reflecting a more formal, authoritative tone */
+        :root {
+            --bg-color: #121826; /* A deeper, more formal navy-slate */
+            --text-color: #d1d5db; /* A soft, warm gray */
+            --accent-color: #d4af37; /* A distinguished metallic gold */
+            --accent-glow: rgba(212, 175, 55, 0.3);
+            --accent-glow-strong: rgba(212, 175, 55, 0.4);
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        .monument-gradient-text {
+            background: linear-gradient(120deg, #a7b2c1, #ffffff, #a7b2c1);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+        }
+        .fade-in-section {
+            opacity: 0;
+            transform: translateY(20px);
+            /* Slower transition for a more deliberate, certain feel */
+            transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+        }
+        .fade-in-section.is-visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .icon-glow {
+            box-shadow: 0 0 20px var(--accent-glow), 0 0 40px var(--accent-glow-strong);
+        }
+        .triangle-node {
+            transition: transform 0.3s ease-in-out;
+        }
+        .triangle-node:hover {
+            transform: scale(1.05);
+        }
+        .accent-text {
+            color: var(--accent-color);
+        }
+    </style>
+</head>
+<body class="overflow-x-hidden">
+
+    <!-- Main Container -->
+    <div class="container mx-auto px-6 max-w-4xl">
+
+        <!-- Header -->
+        <header class="py-8 flex justify-center items-center">
+             <div class="flex items-center space-x-2 text-slate-300">
+                <!-- Icon: A certified seal -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="accent-text"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path><path d="m9 12 2 2 4-4"></path></svg>
+                <span class="font-bold text-lg tracking-wider">verifiable.im</span>
+            </div>
+        </header>
+
+        <main>
+            <!-- Section 1: The Hook -->
+            <section class="min-h-[70vh] flex flex-col items-center justify-center text-center py-20 fade-in-section">
+                <h1 class="text-4xl md:text-6xl lg:text-7xl font-black monument-gradient-text tracking-tight" style="line-height: 1.2;">
+                    Online, trust is all-or-nothing.
+                </h1>
+                <p class="mt-8 text-lg text-slate-400 max-w-2xl leading-relaxed">
+                    To prove you're over 21, you show your driver's license. The bartender sees your birthdate—not your home address, your height, or your middle name. Real-world trust is precise.
+                </p>
+                 <p class="mt-4 text-lg text-slate-400 max-w-2xl leading-relaxed">
+                    Online, to prove a single fact, we're forced to hand over our entire identity. This isn't just inefficient; <strong class="text-white">it's a liability.</strong>
+                </p>
+            </section>
+
+            <!-- Section 2: The Turn -->
+            <section class="text-center py-20 fade-in-section">
+                 <h2 class="text-3xl md:text-5xl font-bold text-slate-100 tracking-tight">
+                    It's time for digital proof, not digital profiles.
+                </h2>
+                <p class="mt-6 text-xl accent-text max-w-3xl mx-auto leading-relaxed">
+                    A Verifiable Credential isn't a profile you share. <strong class="text-white">It's a claim you prove.</strong> A single, provable fact, signed by a trusted issuer, that you hold in your own digital wallet.
+                </p>
+            </section>
+
+            <!-- Section 3: The How (Triangle of Trust) -->
+            <section class="py-20 fade-in-section">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-5xl font-bold text-slate-100 tracking-tight">The Triangle of Trust</h2>
+                    <p class="mt-4 text-lg text-slate-400 max-w-2xl mx-auto">A simple, secure relationship between three actors.</p>
+                </div>
+
+                <div class="grid md:grid-cols-3 gap-8 md:gap-4 items-start text-center">
+                    <!-- 1. The Issuer -->
+                    <div class="flex flex-col items-center triangle-node">
+                        <div class="p-5 bg-slate-800/50 rounded-full border border-slate-700 mb-4 icon-glow">
+                           <!-- Icon: Official document/scroll -->
+                           <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="accent-text"><path d="M8 21h10a2 2 0 0 0 2-2v-2h-3v-3h-2v3h-3v-3h-2v3H5v2a2 2 0 0 0 2 2z"/><path d="M20 14V5a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v9"/><path d="M12 3v11"/></svg>
+                        </div>
+                        <h3 class="font-bold text-xl text-white">1. The Issuer</h3>
+                        <p class="text-slate-400 mt-2">The source of truth. A university issues a digital diploma. A government issues a digital ID. They cryptographically sign the credential.</p>
+                    </div>
+
+                    <!-- 2. The Holder -->
+                    <div class="flex flex-col items-center triangle-node">
+                         <div class="p-5 bg-slate-800/50 rounded-full border border-slate-700 mb-4 icon-glow">
+                           <!-- Icon: A secure digital wallet -->
+                           <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="accent-text"><path d="M21 12V7H5a2 2 0 0 1 0-4h14v4"/><path d="M3 5v14a2 2 0 0 0 2 2h16v-5"/><path d="M18 12a2 2 0 0 0 0 4h4v-4h-4z"/></svg>
+                        </div>
+                        <h3 class="font-bold text-xl text-white">2. The Holder (You)</h3>
+                        <p class="text-slate-400 mt-2">You receive the credential and store it in your private digital wallet on your phone. You have sole control over who you share it with.</p>
+                    </div>
+
+                    <!-- 3. The Verifier -->
+                    <div class="flex flex-col items-center triangle-node">
+                        <div class="p-5 bg-slate-800/50 rounded-full border border-slate-700 mb-4 icon-glow">
+                          <!-- Icon: Verifying a document -->
+                          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="accent-text"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/><path d="m9 15 2 2 4-4"/></svg>
+                        </div>
+                        <h3 class="font-bold text-xl text-white">3. The Verifier</h3>
+                        <p class="text-slate-400 mt-2">The requester. A mortgage app needs your diploma. They can instantly check the cryptographic signature to confirm it's authentic and from the issuer.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section 4: The Why -->
+            <section class="py-20 fade-in-section">
+                 <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-5xl font-bold text-slate-100 tracking-tight">The Bedrock of Digital Trust</h2>
+                     <p class="mt-4 text-lg text-slate-400 max-w-2xl mx-auto">This creates a more secure, private, and efficient internet for everyone.</p>
+                </div>
+                <div class="grid md:grid-cols-3 gap-8 text-left">
+                    <div class="p-8 bg-slate-900/70 border border-slate-800 rounded-2xl">
+                        <h3 class="text-xl font-bold text-white">Trustworthy</h3>
+                        <p class="mt-2 text-slate-400">Reduce fraud and administrative overhead. Credentials are cryptographically secure and instantly verifiable, eliminating the need for manual checks.</p>
+                    </div>
+                     <div class="p-8 bg-slate-900/70 border border-slate-800 rounded-2xl">
+                        <h3 class="text-xl font-bold text-white">Private</h3>
+                        <p class="mt-2 text-slate-400">Minimize data liability. By only requesting specific information (e.g., 'is this person over 18?'), you don't store sensitive data, reducing risk.</p>
+                    </div>
+                     <div class="p-8 bg-slate-900/70 border border-slate-800 rounded-2xl">
+                        <h3 class="text-xl font-bold text-white">Portable</h3>
+                        <p class="mt-2 text-slate-400">Create seamless experiences. Users can carry their credentials with them, enabling instant onboarding and one-click verification across services.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Section 5: The Foundry Credit (Footer) -->
+    <footer class="py-20 text-center border-t border-slate-800 fade-in-section">
+        <div class="container mx-auto px-6 max-w-4xl">
+            <p class="text-slate-400">
+                <span class="font-semibold text-slate-200">verifiable.im</span> is a digital monument by 
+                <a href="#" class="font-semibold text-slate-200 hover:text-white transition-colors">unearth.im</a>.
+            </p>
+             <p class="mt-4 text-slate-400">We believe the future of the web will be built on the bedrock of verifiable trust.</p>
+            <p class="mt-8 text-slate-500">
+                If your brand's future requires a landmark of authenticity, let's begin the excavation.
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        // Simple script for fade-in animations on scroll
+        const sections = document.querySelectorAll('.fade-in-section');
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('is-visible');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, {
+            rootMargin: '0px',
+            threshold: 0.15
+        });
+        
+        // Make the first section visible on load without waiting for scroll
+        if (sections.length > 0) {
+            sections[0].classList.add('is-visible');
+            observer.observe(sections[0]); 
+        }
+
+        // Observe all sections except the first one
+        for (let i = 1; i < sections.length; i++) {
+             observer.observe(sections[i]);
+        }
+    </script>
+</body>
+</html>
+

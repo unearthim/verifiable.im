@@ -1,0 +1,21 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        .bg { fill: #121826; }
+        .title-text { font-family: 'Inter', sans-serif; font-size: 72px; font-weight: 900; fill: #ffffff; }
+        .tagline-text { font-family: 'Inter', sans-serif; font-size: 36px; font-weight: 400; fill: #d1d5db; }
+        .accent-text { fill: #d4af37; }
+    </style>
+    <rect class="bg" width="1200" height="630" />
+
+    <g transform="translate(600, 315)">
+        <g transform="translate(0, -50)">
+            <!-- Icon: Certified Seal -->
+            <svg x="-36" y="-140" width="72" height="72" viewBox="0 0 24 24" fill="none" stroke="#d4af37" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                <path d="m9 12 2 2 4-4"></path>
+            </svg>
+            <text text-anchor="middle" class="title-text">verifiable.im</text>
+            <text text-anchor="middle" y="60" class="tagline-text">It's time for digital proof, not digital profiles.</text>
+        </g>
+    </g>
+</svg>
